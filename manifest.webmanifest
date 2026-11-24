@@ -1,28 +1,18 @@
 {
   "id": "./",
   "name": "Daily Bloom — يومك بلطف",
-  "short_name": "Bloom",
-  "description": "دفتر مهام يومي لطيف لتنظيم العادات والمهام اليومية والأسبوعية.",
+  "short_name": "Daily Bloom",
+  "description": "منظّمك الشخصي للمهام والعادات والتمارين.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fff8f4",
+  "background_color": "#fff8f5",
   "theme_color": "#fff8f5",
   "orientation": "portrait-primary",
   "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    }
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "./assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
   ]
 }

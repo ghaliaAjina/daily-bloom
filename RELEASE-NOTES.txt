@@ -1,0 +1,23 @@
+DAILY BLOOM 2.0 — FULL RELEASE
+
+Included:
+- Local-only persistence via IndexedDB; no backend, account, cloud sync, or notifications.
+- Automatic one-time migration of existing tasks from the previous localStorage key: daily-bloom-v1.
+- Daily, weekly, and one-time tasks.
+- Per-date skip, delete from selected date onward, or delete the full task series.
+- Per-date task edits or future-wide edits (from selected date onward).
+- Category and priority tags, priority sorting, manual reorder buttons, and desktop drag/drop.
+- Monthly calendar with task, habit, and workout markers.
+- Fitness sessions with exercises, sets, reps, weights, per-set completion, and per-set value editing.
+- Daily/weekly habits with completion history and streak display.
+- Responsive Arabic RTL UI, PWA manifest, offline service worker, Netlify configuration.
+
+Deployment:
+- Upload the CONTENTS of this folder to the root of the existing GitHub repository.
+- Keep the existing README if desired; this release includes an updated README.
+- Netlify settings: branch main, build command blank, publish directory ".".
+- Netlify will redeploy automatically after the GitHub commit if continuous deployment is enabled.
+
+Storage:
+- IndexedDB is local to this browser/site on this device. Clearing site data/browser data can delete app data.
+- Existing tasks stored under localStorage key daily-bloom-v1 are migrated to IndexedDB on first launch of this release.
