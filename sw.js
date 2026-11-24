@@ -1,7 +1,7 @@
-const CACHE_NAME = 'daily-bloom-shell-v2-0-1';
+const CACHE_NAME = 'daily-bloom-shell-v2-0-2';
 const SHELL_ASSETS = [
   './', './index.html', './styles.css', './manifest.webmanifest', './icon.svg',
-  './assets/apple-touch-icon.png', './js/app.js', './js/database.js',
+  './apple-touch-icon.png', './js/app.js', './js/database.js',
   './js/date-utils.js', './js/catalog.js', './js/task-service.js',
   './js/habit-service.js', './js/fitness-service.js'
 ];

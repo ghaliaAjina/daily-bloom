@@ -1,4 +1,4 @@
-DAILY BLOOM 2.0 — FULL RELEASE
+DAILY BLOOM 2.0.1 — PATCH RELEASE
 
 Included:
 - Local-only persistence via IndexedDB; no backend, account, cloud sync, or notifications.
@@ -11,9 +11,11 @@ Included:
 - Fitness sessions with exercises, sets, reps, weights, per-set completion, and per-set value editing.
 - Daily/weekly habits with completion history and streak display.
 - Responsive Arabic RTL UI, PWA manifest, offline service worker, Netlify configuration.
+- Date repetition reduced: the selected date is shown in the date strip; the redundant topbar/page-header date labels were removed.
+- Root-level Apple touch icon paths; the assets/ folder is no longer required.
 
 Deployment:
-- Upload the CONTENTS of this folder to the root of the existing GitHub repository.
+- Upload the CONTENTS of this folder to the root of the existing GitHub repository. IMPORTANT: preserve the js/ folder and all seven .js files inside it. The folder must be visible in GitHub as js/app.js, js/database.js, js/date-utils.js, js/catalog.js, js/task-service.js, js/habit-service.js, and js/fitness-service.js.
 - Keep the existing README if desired; this release includes an updated README.
 - Netlify settings: branch main, build command blank, publish directory ".".
 - Netlify will redeploy automatically after the GitHub commit if continuous deployment is enabled.
